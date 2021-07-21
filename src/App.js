@@ -1,11 +1,15 @@
 import AllQuotes from './pages/AllQuotes';
 import { Route } from 'react-router-dom';
+import QuoteDetailed from './pages/QuoteDetailed';
 
 function App() {
   return (
     <div>
       <Route path='/all-quotes'>
         <AllQuotes />
+      </Route>
+      <Route path='/quote-detailed'>
+        <QuoteDetailed />
       </Route>
     </div>
   );
@@ -25,7 +29,7 @@ export default App;
 // 10º When adding a comment, show loading spinner, and display under the Add a Comment button.
 // 11º On the All Quotes page, when clicking on Sort Ascending, it sorts the array and the button changes to Sort Descending and viceversa.
 //////////// 12º Create All Quotes page.
-// 13º Create Quote Detailed page.
+//////////// 13º Create Quote Detailed page.
 // 14º When clicking on a single quote, go to Quote Detailed page.
 // 15º Create Add Quote page.
 // 16º Write all the routing code the register the page components.
