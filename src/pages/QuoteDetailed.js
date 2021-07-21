@@ -12,11 +12,12 @@ function QuoteDetailed() {
   const params = useParams();
 
   const quote = DUMMY_QUOTES.find((quote) => quote.id === params.quoteId);
-
+  if (!quote) {
+    return <p>No quote found</p>;
+  }
   return (
     <div>
-      <h1>Quote Detail Page</h1>
-      <HighlightedQuote quote={quote} text={quote.text} author={quote.author} />
+      <HighlightedQuote text={quote.text} author={quote.author} />
       <Route path='/quotes/:quoteId/comments'>
         <Comments />
       </Route>

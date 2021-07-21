@@ -3,6 +3,7 @@ import AllQuotes from './pages/AllQuotes';
 import QuoteDetailed from './pages/QuoteDetailed';
 import AddQuote from './pages/AddQuote';
 import Layout from './components/layout/Layout';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
         </Route>
         <Route path='/add-quote'>
           <AddQuote />
+        </Route>
+        <Route path='*'>
+          <NotFound />
         </Route>
       </Switch>
     </Layout>
@@ -38,10 +42,10 @@ export default App;
 //////////// 9º When clicking on Add a Quote, show form that has an Author and Text inputs. And Add Quote button.
 //////////// 10º Add dummy data to display some quotes.
 //////////// 11º When clicking on the View Fullscreen buttonshow loading spinner.
-// 12º Add black box that says this is a test.
+//////////// 12º Add black box that says this is a test.
 // 13º On AllQuotes page, show loading spinner, Sort Ascending button and hr over the list of quotes.
 // 14º When adding a quote, it shows loading spinner and it redirects you to All Quotes screen, where you have the ul of quotes.
 // 15º When adding a comment, show loading spinner, and display under the Add a Comment button.
 // 16º On the All Quotes page, when clicking on Sort Ascending, it sorts the array and the button changes to Sort Descending and viceversa.
 // 17º When clicking on a single quote, go to Quote Detailed page.
-// 18º In the QuoteDetailed page, show screen with quote in a black box and a link under it that says Load Comments.
+// 18º In the QuoteDetailed page, show a link under the black box that says Load Comments.
