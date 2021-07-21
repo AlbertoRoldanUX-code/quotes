@@ -36,11 +36,11 @@ export default App;
 //////////// 7º Render the comments by using a nested route in the QuoteDetailed page, below the paragraph.
 //////////// 8º Add header that says Great Quotes, and nav with All Quotes and Add a Quote.
 //////////// 9º When clicking on Add a Quote, show form that has an Author and Text inputs. And Add Quote button.
-// 10º Add dummy data to display some quotes.
-// 10º Add black box that says this is a test.
-// 11º When clicking on All Quotes, show loading spinner, show Sort Ascending button, hr and ul with li that says This is a test!, Test under it and a button on the right side that says View Fullscreen.
-// 12º When adding a quote, it shows loading spinner and it redirects you to All Quotes screen, where you have the ul of quotes.
-// 13º When clicking on the View Fullscreen button, show loading spinner and show screen with quote in a black box and a link under it that says Load Comments.
-// 14º When adding a comment, show loading spinner, and display under the Add a Comment button.
-// 15º On the All Quotes page, when clicking on Sort Ascending, it sorts the array and the button changes to Sort Descending and viceversa.
-// 16º When clicking on a single quote, go to Quote Detailed page.
+//////////// 10º Add dummy data to display some quotes.
+// 11º When clicking on the View Fullscreen button, load QuoteDetailed page, show loading spinner and show screen with quote in a black box and a link under it that says Load Comments.
+// 12º Add black box that says this is a test.
+// 13º On AllQuotes page, show loading spinner, Sort Ascending button and hr over the list of quotes.
+// 14º When adding a quote, it shows loading spinner and it redirects you to All Quotes screen, where you have the ul of quotes.
+// 15º When adding a comment, show loading spinner, and display under the Add a Comment button.
+// 16º On the All Quotes page, when clicking on Sort Ascending, it sorts the array and the button changes to Sort Descending and viceversa.
+// 17º When clicking on a single quote, go to Quote Detailed page.
