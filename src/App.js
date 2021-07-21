@@ -1,9 +1,7 @@
-import { Fragment } from 'react';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import AllQuotes from './pages/AllQuotes';
 import QuoteDetailed from './pages/QuoteDetailed';
 import AddQuote from './pages/AddQuote';
-import MainNavigation from './components/layout/MainNavigation';
 import Layout from './components/layout/Layout';
 
 function App() {
@@ -38,6 +36,7 @@ export default App;
 //////////// 7º Render the comments by using a nested route in the QuoteDetailed page, below the paragraph.
 //////////// 8º Add header that says Great Quotes, and nav with All Quotes and Add a Quote.
 //////////// 9º When clicking on Add a Quote, show form that has an Author and Text inputs. And Add Quote button.
+// 10º Add dummy data to display some quotes.
 // 10º Add black box that says this is a test.
 // 11º When clicking on All Quotes, show loading spinner, show Sort Ascending button, hr and ul with li that says This is a test!, Test under it and a button on the right side that says View Fullscreen.
 // 12º When adding a quote, it shows loading spinner and it redirects you to All Quotes screen, where you have the ul of quotes.
