@@ -1,6 +1,7 @@
 import AllQuotes from './pages/AllQuotes';
 import { Route } from 'react-router-dom';
 import QuoteDetailed from './pages/QuoteDetailed';
+import AddQuote from './pages/AddQuote';
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
       </Route>
       <Route path='/quote-detailed'>
         <QuoteDetailed />
+      </Route>
+      <Route path='/add-quote'>
+        <AddQuote />
       </Route>
     </div>
   );
@@ -31,6 +35,6 @@ export default App;
 //////////// 12º Create All Quotes page.
 //////////// 13º Create Quote Detailed page.
 // 14º When clicking on a single quote, go to Quote Detailed page.
-// 15º Create Add Quote page.
+//////////// 15º Create Add Quote page.
 // 16º Write all the routing code the register the page components.
 // 17º Make sure you can navigate between those pages by entering these paths manually in the url.

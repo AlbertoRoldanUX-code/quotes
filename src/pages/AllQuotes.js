@@ -1,9 +1,10 @@
 import React from 'react';
+import QuoteList from '../components/quotes/QuoteList';
 
 function AllQuotes() {
   return (
     <div>
-      <h1>All Quotes</h1>
+      <QuoteList />
     </div>
   );
 }
