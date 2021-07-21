@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import styles from './MainNavigation.module.css';
 
 function MainNavigation() {
@@ -9,10 +9,14 @@ function MainNavigation() {
       <nav className={styles.nav}>
         <ul>
           <li>
-            <Link to='/quotes'>All Quotes</Link>
+            <NavLink activeClassName={styles.active} to='/quotes'>
+              All Quotes
+            </NavLink>
           </li>
           <li>
-            <Link to='/add-quote'>Add a Quote</Link>
+            <NavLink activeClassName={styles.active} to='/add-quote'>
+              Add a Quote
+            </NavLink>
           </li>
         </ul>
       </nav>
