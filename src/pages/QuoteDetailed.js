@@ -1,9 +1,11 @@
-import React from 'react';
+import { useParams } from 'react-router-dom';
 
 function QuoteDetailed() {
+  const params = useParams();
+
   return (
     <div>
-      <h1>Quote Detailed</h1>
+      <h1>Quote Detailed of {params.quoteId}</h1>
     </div>
   );
 }

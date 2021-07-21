@@ -6,10 +6,10 @@ import AddQuote from './pages/AddQuote';
 function App() {
   return (
     <Switch>
-      <Route path='/'>
-        <Redirect to='/all-quotes' />
+      <Route path='/' exact>
+        <Redirect to='/quotes' />
       </Route>
-      <Route path='/all-quotes' exact>
+      <Route path='/quotes' exact>
         <AllQuotes />
       </Route>
       <Route path='/quotes/:quoteId'>
@@ -28,8 +28,8 @@ export default App;
 //////////// 2º Create Quote Detailed page.
 //////////// 3º Create Add Quote page.
 //////////// 4º Make sure you can navigate between those pages by entering these paths manually in the url.
-// 5º Redirect from / to /quotes
-// 6º Make sure that in the Quote Detailed component, extract the actual quote id and log it to the console.
+//////////// 5º Redirect from / to /quotes
+//////////// 6º Make sure that in the Quote Detailed component, extract the actual quote id and log it to the console.
 // 7º Add header that says Great Quotes, and nav with All Quotes and Add a Quote.
 // 8º Add black box that says this is a test.
 // 9º Add User Comments, Add a Comment, Test, hr, Another Test, hr.
