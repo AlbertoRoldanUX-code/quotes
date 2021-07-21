@@ -7,7 +7,7 @@ function QuoteDetailed() {
   return (
     <div>
       <h1>Quote Detail Page</h1>
-      <p>Quote Detailed of {params.quoteId}</p>
+      <p>{params.quoteId}</p>
       <Route path='/quotes/:quoteId/comments'>
         <Comments />
       </Route>
