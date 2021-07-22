@@ -44,6 +44,6 @@ export default App;
 //////////// 11º When clicking on the View Fullscreen buttonshow loading spinner.
 //////////// 12º Add black box that says this is a test.
 //////////// 13º Use query parameters, to implement the sorting functionality on the All Quotes page.
-// 14º When adding a comment, and display under the Add a Comment button.
-// 15º In the QuoteDetailed page, show a link under the black box that says Load Comments.
+// 14ª Add a link in the QuoteDetailed page, below the highlighted quote which will load the comments and navigate us to the path underneath and display it conditionally using a nested route.
+// 15º When adding a comment, and display under the Add a Comment button.
 // 16º Implement Loading Spinner when changing pages.
