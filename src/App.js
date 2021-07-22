@@ -43,9 +43,7 @@ export default App;
 //////////// 10º Add dummy data to display some quotes.
 //////////// 11º When clicking on the View Fullscreen buttonshow loading spinner.
 //////////// 12º Add black box that says this is a test.
-// 13º On AllQuotes page, show loading spinner, Sort Ascending button and hr over the list of quotes.
-// 14º When adding a quote, show loading spinner before going to All Quotes screen.
-// 15º When adding a comment, show loading spinner, and display under the Add a Comment button.
-// 16º On the All Quotes page, when clicking on Sort Ascending, it sorts the array and the button changes to Sort Descending and viceversa.
-// 17º When clicking on a single quote, go to Quote Detailed page.
-// 18º In the QuoteDetailed page, show a link under the black box that says Load Comments.
+//////////// 13º Use query parameters, to implement the sorting functionality on the All Quotes page.
+// 14º When adding a comment, and display under the Add a Comment button.
+// 15º In the QuoteDetailed page, show a link under the black box that says Load Comments.
+// 16º Implement Loading Spinner when changing pages.
