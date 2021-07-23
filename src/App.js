@@ -47,4 +47,4 @@ export default App;
 //////////// 14ª Add a link in the QuoteDetailed page, below the highlighted quote which will load the comments and navigate us to the path underneath and display it conditionally using a nested route.
 //////////// 15º Reduce the amount of hard coded values by using useRouteMath and useLocation.
 //////////// 16º Send & Get Quote Data via Http.
-// 17º When adding a comment, and display under the Add a Comment button.
+//////////// 17º Add Comments features.
